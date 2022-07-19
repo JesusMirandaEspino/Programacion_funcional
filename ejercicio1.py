@@ -1,4 +1,7 @@
+# Repositorio https://github.com/JesusMirandaEspino/Programacion_funcional
 
+
+# Funciones de las operaciones
 def sumar(num1, num2):
     try:
         suma = num1 + num2
@@ -45,8 +48,8 @@ def potencia(num1, num2):
         return 'Ha ocurrido un error, favor de validar', error
 
 
+# Inputs de ingreso de datos
 def ingresar_numero_1():
-
     try:
         return float(input("ingrese el primer numero: "))
     except ValueError as error:
@@ -54,16 +57,17 @@ def ingresar_numero_1():
 
 
 def ingresar_numero_2():
-
     try:
         return float(input("ingrese el segundo numero: "))
     except ValueError as error:
         return 'No se puede usar un tipo string. para realizar una operacion, Si devuelve un resultado con string, favor de verificar, puede existir un error', error
 
+# Funcion para tomar cada operacion
 def operacion(func, num1, num2):
     return func(num1, num2)
 
 
+# Menu principal
 def menu():
     init = True
     select = None
