@@ -1,3 +1,5 @@
+# Repositorio https://github.com/JesusMirandaEspino/Programacion_funcional
+
 unir = lambda texto: ''.join(map(str, texto))
 
 def verify_number(num):
