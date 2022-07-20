@@ -6,7 +6,7 @@ def formula(n):
     return respuesta
 
 def imprimir_serie(n):
-    if n < 0:
+    if n < 1:
         return
     else:
         print(formula(n))
