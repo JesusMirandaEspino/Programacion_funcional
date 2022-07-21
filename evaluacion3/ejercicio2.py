@@ -1,3 +1,4 @@
+# Repositorio https://github.com/JesusMirandaEspino/Programacion_funcional
 
 lista_productos = ( 'Huevo', 'frijol', 'Arroz', 'Leche', 'Tortilla', 'Pollo', 'Frutas', 'Verduras', 'Avena', 'Cereal')
 lista_precio = ( 40.5, 20.5, 30.5, 20, 20, 32.5, 22.5 , 18.5, 15, 45.5 )
